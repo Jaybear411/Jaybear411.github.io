@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Father's Day!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .video-background video {
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .card {
+            max-width: 400px;
+            margin: 30px auto;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .card-header {
+            background-color: #660906;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header h1 {
+            margin: 0;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+
+        .card img {
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+        }
+
+        .card-body {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .card-body p {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .signature {
+            font-weight: bold;
+            color: #660906;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h1>Happy Father's Day!</h1>
+        </div>
+        <div class="card">
+            <img src="father.png" alt="Personal Image" class="center" width="300" height="300">
+            <div class="card-body">
+                <p>Dear Papa,</p>
+            <p>From the bottom of my heart, thank you so much for being the best father in the entire world. 
+                I'm not going to lie, I made this instead of going out and getting a card because I had a stomachache, but I know Sarina's card would have been more beautiful anyway.
+             Thank you so much for guiding me on the long, confusing, mysterious path of life. Not only are you an endless source of support and advice, giving - perhaps - too much advice at times, 
+            but you are also always willing to take on more work so that Sarina and I do not have to. You have been a constant in my life, from spending hours of your time to help me in the spelling bee, to doing
+        the same recently with my Valedictorian Speech, you have never wavered in your commitment to raising me as well as possible. You really are the best father anyone could ask for. I hope you have an excellent father's day!  </p>
+            <p class="signature">With love,</p>
+            <p class="signature">Jay</p>
+        </div>
+    </div>
+</body>
+</html>
